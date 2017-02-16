@@ -69,6 +69,16 @@ angular.module('moviesApp', ['ionic', 'starter.controllers', 'movie'])
       }
     }
   })
+
+  .state('app.latest',{
+    url: '/latest',
+    views: {
+      'menuContent': {
+        templateUrl: 'js/components/movies/_movies.latest.view.html',
+        controller: 'MoviesLatestController'
+      }
+    }
+  })
   
   .state('app.movie-detail',{
     url: '/movie-detail',
