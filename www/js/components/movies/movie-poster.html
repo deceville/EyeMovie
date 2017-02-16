@@ -1,0 +1,8 @@
+<div class="movie-poster">
+  <div class="img-container">
+    <img class="full-image" ng-src="{{movie.poster_path ? 'http://image.tmdb.org/t/p/w300/'+movie.poster_path : 'img/default-cover.jpg'}}"/>
+  </div>
+  <p class="title">{{movie.title}}</p>
+  <p class="subtitle">{{movie.release_date ? movie.release_date : 'No date'}}</p>
+  <hr/>
+</div>

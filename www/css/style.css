@@ -1,0 +1,83 @@
+/*movie poster: card that represents a movie*/
+.movie-poster{
+  font-family: "Helvetica Neue Thin";
+}
+.movie-poster .img-container{
+  height: 35vh;
+  overflow: hidden;
+}
+.movie-poster .title{
+  margin-bottom: 0px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.movie-poster .subtitle{
+  font-size: 80%;
+  margin-bottom: 1px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.movie-poster hr{
+  width: 50%;
+  border: 1px solid #33cd5f;
+  margin: 0px;
+}
+
+/*movie details*/
+.movie-details{
+  font-family: "Helvetica Neue Thin";
+}
+.movie-details .movie-cover{
+  width: 100%;
+  height: 50vh;
+  background-size: cover;
+}
+
+.movie-details .title{
+  margin-bottom: 0px;
+  font-size: 16pt;
+}
+
+/*movies search*/
+.searchBar .icon {
+	font-size: 27px;
+	line-height: 1.2;
+	padding-right: 6px;
+	padding-left: 6px;
+  color: #FFF;
+}
+.searchBar .searchTxt {
+	left: 50px;
+	width: calc(100% - 100px);
+	position: fixed;
+}
+.searchBar .searchTxt > .bgdiv {
+	background-color: #fff;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+.searchBar .searchTxt > .bgtxt {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.searchBar .searchTxt input {
+	background-color: inherit;
+	color: #252525;
+	padding-left: 5px;
+	padding-right:5px;
+  width: 100%;
+}
+
+/*custom bar*/
+bar.bar-custom, .bar-custom .bar-assertive, .bar-custom .nav-bar-block ion-header-bar {
+  border: 0px;
+  background-color: rgba(255, 0, 0, 0.1) !important;
+  background-image: none;
+}
+.bar-custom.nav-bar-block, .bar-custom.bar {
+  background-color: inherit !important;
+}

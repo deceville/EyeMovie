@@ -1,0 +1,18 @@
+<ion-view >
+	<ion-nav-buttons side="right">
+		<search-bar></search-bar>
+	</ion-nav-buttons>
+
+  <ion-content>
+
+		<div class="row" style="flex-wrap: wrap">
+			<div class="col col-50" ng-repeat="movie in searchFactory.data" ng-click='navigation.goMovieDetail(movie)'>
+				<movie-poster movie="movie"/>
+			</div>
+		</div>
+
+		<ion-infinite-scroll on-infinite="searchFactory.search()" distance="1%" ng-if="searchFactory.hasMoreData" immediate-check="false"/>
+
+
+  </ion-content>
+</ion-view>
