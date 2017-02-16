@@ -75,7 +75,7 @@
 /*custom bar*/
 bar.bar-custom, .bar-custom .bar-balanced, .bar-custom .nav-bar-block ion-header-bar {
   border: 0px;
-  background-color: rgba(255, 0, 0, 0.1) !important;
+  background-color: rgba(0, 255, 0, 0.1) !important;
   background-image: none;
 }
 .bar-custom.nav-bar-block, .bar-custom.bar {
