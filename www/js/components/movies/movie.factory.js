@@ -10,6 +10,7 @@ function MovieFactory(RequestFactory) {
   var factory = {
     getMovies: getMovies,
     getUpcoming: getUpcoming,
+    getTop_Rated: getTop_Rated,
     search: search
   };
 
@@ -25,6 +26,12 @@ function MovieFactory(RequestFactory) {
   //page: used for pagination
   function getUpcoming(page){
     return RequestFactory.request('movie/upcoming', page);
+  }
+
+  //return top rated movies, 20 per time
+  //page: used for pagination
+  function getTop_Rated(page){
+    return RequestFactory.request('movie/top_rated', page);
   }
 
   function search(query, page){

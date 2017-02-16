@@ -60,6 +60,16 @@ angular.module('moviesApp', ['ionic', 'starter.controllers', 'movie'])
     }
   })
 
+  .state('app.top_rated',{
+    url: '/top_rated',
+    views: {
+      'menuContent': {
+        templateUrl: 'js/components/movies/_movies.top_rated.view.html',
+        controller: 'MoviesTopRatedController'
+      }
+    }
+  })
+  
   .state('app.movie-detail',{
     url: '/movie-detail',
     params: {
