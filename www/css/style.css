@@ -1,6 +1,6 @@
 /*movie poster: card that represents a movie*/
 .movie-poster{
-  font-family: "Helvetica Neue Thin";
+  font-family: "Helvetica";
 }
 .movie-poster .img-container{
   height: 35vh;
@@ -25,7 +25,7 @@
 
 /*movie details*/
 .movie-details{
-  font-family: "Helvetica Neue Thin";
+  font-family: "Helvetica";
 }
 .movie-details .movie-cover{
   width: 100%;
@@ -73,7 +73,7 @@
 }
 
 /*custom bar*/
-bar.bar-custom, .bar-custom .bar-assertive, .bar-custom .nav-bar-block ion-header-bar {
+bar.bar-custom, .bar-custom .bar-balanced, .bar-custom .nav-bar-block ion-header-bar {
   border: 0px;
   background-color: rgba(255, 0, 0, 0.1) !important;
   background-image: none;
